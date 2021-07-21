@@ -26,10 +26,19 @@ body {
 }
 
 .speaker {
+    display: flex;
+    flex-wrap: wrap;
 	box-sizing: border-box;
 	padding: 30px 20px;
 	width: 400px;
 }
+
+.speaker:nth-child(1n + 4) {
+    border-top: 3px solid #d9dbf5;
+  }
+  .speaker:nth-child(even) {
+    background-color: #f0f1fb
+  }
 
 .speaker-photo {
 	width: 150px;
