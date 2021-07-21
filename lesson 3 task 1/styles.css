@@ -21,23 +21,23 @@ body {
 }
 
 .speakers {
+	display: flex;
+	flex-wrap: wrap;
 	margin-top: 50px;
 	border: 3px solid rgba(179, 184, 236, 0.5);
 }
 
 .speaker {
-    display: flex;
-    flex-wrap: wrap;
 	box-sizing: border-box;
 	padding: 30px 20px;
 	width: 400px;
 }
 
 .speaker:nth-child(1n + 4) {
-    border-top: 3px solid #d9dbf5;
+	border-top: 3px solid #d9dbf5;
   }
   .speaker:nth-child(even) {
-    background-color: #f0f1fb
+	background-color: #f0f1fb;
   }
 
 .speaker-photo {
