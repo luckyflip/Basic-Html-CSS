@@ -82,7 +82,7 @@ body {
   color: #333333;
   -webkit-appearance: none;
   -moz-appearance: none;
-  background-image: url(https://netology-code.github.io/html-2-homeworks/form-elements/city-select/img/select-arrows.svg);
+  background-image: url(https://raw.githubusercontent.com/luckyflip/Basic-Html-CSS/8c52de0d7676a6c6e2a1980cc1934e25fd176d1a/lesson%205%20task%202/img/select-arrows.svg);
   background-repeat: no-repeat;
   background-position: right center;
 }
@@ -110,18 +110,18 @@ body {
   vertical-align: middle;
   width: 20px;
   height: 20px;
-  background-image: url(https://netology-code.github.io/html-2-homeworks/form-elements/city-select/img/checkbox-unchecked.svg);
+  background-image: url(https://raw.githubusercontent.com/luckyflip/Basic-Html-CSS/8c52de0d7676a6c6e2a1980cc1934e25fd176d1a/lesson%205%20task%202/img/checkbox-unchecked.svg);
   background-repeat: no-repeat;
   background-position: center center;
   background-size: 20px;
 }
 
 .checkbox-text:checked {
-  background-image: url(https://netology-code.github.io/html-2-homeworks/form-elements/city-select/img/checkbox-checked.svg);
+  background-image: url(https://raw.githubusercontent.com/luckyflip/Basic-Html-CSS/8c52de0d7676a6c6e2a1980cc1934e25fd176d1a/lesson%205%20task%202/img/checkbox-checked.svg);
 }
 
 .checkbox:checked ~ .checkbox-text::before {
-  background-image: url(https://netology-code.github.io/html-2-homeworks/form-elements/city-select/img/checkbox-checked.svg);
+  background-image: url(https://raw.githubusercontent.com/luckyflip/Basic-Html-CSS/8c52de0d7676a6c6e2a1980cc1934e25fd176d1a/lesson%205%20task%202/img/checkbox-checked.svg);
 }
 
 .checkbox:focus ~ .checkbox-text::before {
