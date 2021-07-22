@@ -1,6 +1,65 @@
+body {
+  margin: 0;
+  font-family: arial, sans-serif;
+  font-size: 18px;
+}
+
+p {
+  line-height: 32px;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+p:last-child {
+  margin-bottom: 0;
+}
 
 .welcome {
-  background-image: url("https://netology-code.github.io/html-2-homeworks/popup-elements/tour-page-header/img/barcelona.jpg");
+  min-width: 1200px;
+  min-height: 200px;
+  color: #ffffff;
+  padding-top: 150px;
+  padding-bottom: 100px;
+  text-align: center;
+  background-image: url("https://github.com/luckyflip/Basic-Html-CSS/blob/main/lesson%206%20task%202/img/barcelona.jpg?raw=true");
   background-repeat: no-repeat;
   background-position: center center;
+  background-size: cover;
+  background-color: #000000;
+  position: relative;
+}
+
+.welcome::after {
+  content: "";
+  position: absolute;
+  background-color: #000000;
+  opacity: 0.45;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+
+.container {
+  box-sizing: border-box;
+  width: 1200px;
+  padding-left: 30px;
+  padding-right: 30px;
+  position: relative;
+  z-index: 2;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.welcome-title {
+  margin-top: 0;
+  margin-bottom: 30px;
+  font-size: 50px;
+  text-transform: uppercase;
+}
+
+.welcome-description {
+  width: 660px;
+  margin-right: auto;
+  margin-left: auto;
 }
